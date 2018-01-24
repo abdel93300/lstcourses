@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="enseignes">
+<head>
+	<meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script src="enseigne.js"></script>
+    <link rel="stylesheet" href="global.css" type="text/css">
+	<title>Enseignes</title>
+</head> 
+<body  ng-controller="enseignesCtrl">
+	<h1>Liste des enseignes</h1>
+    <ul>
+      <li ng-repeat="enseigne in enseignes" >
+         <span>{{enseigne.nomEnseigne}} - {{enseigne.ville}} - {{enseigne.codePostal}}</span>
+      </li>
+    </ul>
+	</br>
+	
+	<form>
+		<input type="button" value="Retour" onclick="history.go(-1)">
+	</form>
+</body>
+</html>
