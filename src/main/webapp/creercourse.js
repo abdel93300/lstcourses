@@ -86,7 +86,7 @@ angular
   			  };
   		  };
       }   	  
-      
+      debugger;
       $scope.creCourse = function () {
     	  $scope.idC = 0;
     	  CreerCourse.creCourse($scope.idE, $scope.date_achat)
