@@ -1,11 +1,8 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const mysql_1 = require("mysql");
-class MysqlConnection {
-    static startConection() {
-        this.connectionConfig = `mysql://root:pith.2016@10.161.1.34/uaudit`;
-        this.pool = mysql_1.createPool(this.connectionConfig);
-    }
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-exports.MysqlConnection = MysqlConnection;
+Object.defineProperty(exports, "__esModule", { value: true });
+__export(require("./persistance"));
+__export(require("./routes"));
 //# sourceMappingURL=index.js.map
