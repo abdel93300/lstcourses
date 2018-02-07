@@ -1,0 +1,695 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i' ]
+2 info using npm@3.3.12
+3 info using node@v5.4.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData @angular-devkit/core
+20 silly mapToRegistry name @angular-devkit/core
+21 silly mapToRegistry scope (from package name) @angular-devkit
+22 verbose mapToRegistry no registry URL found in name for scope @angular-devkit
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry uri https://registry.npmjs.org/@angular-devkit%2fcore
+26 silly fetchNamedPackageData @angular/animations
+27 silly mapToRegistry name @angular/animations
+28 silly mapToRegistry scope (from package name) @angular
+29 verbose mapToRegistry no registry URL found in name for scope @angular
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fanimations
+33 silly fetchNamedPackageData @angular/common
+34 silly mapToRegistry name @angular/common
+35 silly mapToRegistry scope (from package name) @angular
+36 verbose mapToRegistry no registry URL found in name for scope @angular
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcommon
+40 silly fetchNamedPackageData @angular/compiler
+41 silly mapToRegistry name @angular/compiler
+42 silly mapToRegistry scope (from package name) @angular
+43 verbose mapToRegistry no registry URL found in name for scope @angular
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcompiler
+47 silly fetchNamedPackageData @angular/core
+48 silly mapToRegistry name @angular/core
+49 silly mapToRegistry scope (from package name) @angular
+50 verbose mapToRegistry no registry URL found in name for scope @angular
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcore
+54 silly fetchNamedPackageData @angular/forms
+55 silly mapToRegistry name @angular/forms
+56 silly mapToRegistry scope (from package name) @angular
+57 verbose mapToRegistry no registry URL found in name for scope @angular
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fforms
+61 silly fetchNamedPackageData @angular/http
+62 silly mapToRegistry name @angular/http
+63 silly mapToRegistry scope (from package name) @angular
+64 verbose mapToRegistry no registry URL found in name for scope @angular
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fhttp
+68 silly fetchNamedPackageData @angular/platform-browser
+69 silly mapToRegistry name @angular/platform-browser
+70 silly mapToRegistry scope (from package name) @angular
+71 verbose mapToRegistry no registry URL found in name for scope @angular
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://registry.npmjs.org/
+74 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser
+75 silly fetchNamedPackageData @angular/platform-browser-dynamic
+76 silly mapToRegistry name @angular/platform-browser-dynamic
+77 silly mapToRegistry scope (from package name) @angular
+78 verbose mapToRegistry no registry URL found in name for scope @angular
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+82 silly fetchNamedPackageData @angular/router
+83 silly mapToRegistry name @angular/router
+84 silly mapToRegistry scope (from package name) @angular
+85 verbose mapToRegistry no registry URL found in name for scope @angular
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry uri https://registry.npmjs.org/@angular%2frouter
+89 silly fetchNamedPackageData @ckeditor/ckeditor5-build-classic
+90 silly mapToRegistry name @ckeditor/ckeditor5-build-classic
+91 silly mapToRegistry scope (from package name) @ckeditor
+92 verbose mapToRegistry no registry URL found in name for scope @ckeditor
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry uri https://registry.npmjs.org/@ckeditor%2fckeditor5-build-classic
+96 silly fetchNamedPackageData @ckeditor/ckeditor5-editor-classic
+97 silly mapToRegistry name @ckeditor/ckeditor5-editor-classic
+98 silly mapToRegistry scope (from package name) @ckeditor
+99 verbose mapToRegistry no registry URL found in name for scope @ckeditor
+100 silly mapToRegistry using default registry
+101 silly mapToRegistry registry https://registry.npmjs.org/
+102 silly mapToRegistry uri https://registry.npmjs.org/@ckeditor%2fckeditor5-editor-classic
+103 silly fetchNamedPackageData body-parser
+104 silly mapToRegistry name body-parser
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+108 silly fetchNamedPackageData bootstrap
+109 silly mapToRegistry name bootstrap
+110 silly mapToRegistry using default registry
+111 silly mapToRegistry registry https://registry.npmjs.org/
+112 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+113 silly fetchNamedPackageData chalk
+114 silly mapToRegistry name chalk
+115 silly mapToRegistry using default registry
+116 silly mapToRegistry registry https://registry.npmjs.org/
+117 silly mapToRegistry uri https://registry.npmjs.org/chalk
+118 silly fetchNamedPackageData core-js
+119 silly mapToRegistry name core-js
+120 silly mapToRegistry using default registry
+121 silly mapToRegistry registry https://registry.npmjs.org/
+122 silly mapToRegistry uri https://registry.npmjs.org/core-js
+123 silly fetchNamedPackageData express
+124 silly mapToRegistry name express
+125 silly mapToRegistry using default registry
+126 silly mapToRegistry registry https://registry.npmjs.org/
+127 silly mapToRegistry uri https://registry.npmjs.org/express
+128 silly fetchNamedPackageData lodash
+129 silly mapToRegistry name lodash
+130 silly mapToRegistry using default registry
+131 silly mapToRegistry registry https://registry.npmjs.org/
+132 silly mapToRegistry uri https://registry.npmjs.org/lodash
+133 silly fetchNamedPackageData log4js
+134 silly mapToRegistry name log4js
+135 silly mapToRegistry using default registry
+136 silly mapToRegistry registry https://registry.npmjs.org/
+137 silly mapToRegistry uri https://registry.npmjs.org/log4js
+138 silly fetchNamedPackageData mysql
+139 silly mapToRegistry name mysql
+140 silly mapToRegistry using default registry
+141 silly mapToRegistry registry https://registry.npmjs.org/
+142 silly mapToRegistry uri https://registry.npmjs.org/mysql
+143 silly fetchNamedPackageData ngx-cookie-service
+144 silly mapToRegistry name ngx-cookie-service
+145 silly mapToRegistry using default registry
+146 silly mapToRegistry registry https://registry.npmjs.org/
+147 silly mapToRegistry uri https://registry.npmjs.org/ngx-cookie-service
+148 silly fetchNamedPackageData promise-mysql
+149 silly mapToRegistry name promise-mysql
+150 silly mapToRegistry using default registry
+151 silly mapToRegistry registry https://registry.npmjs.org/
+152 silly mapToRegistry uri https://registry.npmjs.org/promise-mysql
+153 silly fetchNamedPackageData rxjs
+154 silly mapToRegistry name rxjs
+155 silly mapToRegistry using default registry
+156 silly mapToRegistry registry https://registry.npmjs.org/
+157 silly mapToRegistry uri https://registry.npmjs.org/rxjs
+158 silly fetchNamedPackageData yargs
+159 silly mapToRegistry name yargs
+160 silly mapToRegistry using default registry
+161 silly mapToRegistry registry https://registry.npmjs.org/
+162 silly mapToRegistry uri https://registry.npmjs.org/yargs
+163 silly fetchNamedPackageData zone.js
+164 silly mapToRegistry name zone.js
+165 silly mapToRegistry using default registry
+166 silly mapToRegistry registry https://registry.npmjs.org/
+167 silly mapToRegistry uri https://registry.npmjs.org/zone.js
+168 verbose request uri https://registry.npmjs.org/@angular-devkit%2fcore
+169 verbose request no auth needed
+170 info attempt registry request try #1 at 17:26:11
+171 verbose request id 11c3a5459fad4a9a
+172 http request GET https://registry.npmjs.org/@angular-devkit%2fcore
+173 verbose request uri https://registry.npmjs.org/@angular%2fanimations
+174 verbose request no auth needed
+175 info attempt registry request try #1 at 17:26:11
+176 http request GET https://registry.npmjs.org/@angular%2fanimations
+177 verbose request uri https://registry.npmjs.org/@angular%2fcommon
+178 verbose request no auth needed
+179 info attempt registry request try #1 at 17:26:11
+180 http request GET https://registry.npmjs.org/@angular%2fcommon
+181 verbose request uri https://registry.npmjs.org/@angular%2fcompiler
+182 verbose request no auth needed
+183 info attempt registry request try #1 at 17:26:11
+184 http request GET https://registry.npmjs.org/@angular%2fcompiler
+185 verbose request uri https://registry.npmjs.org/@angular%2fcore
+186 verbose request no auth needed
+187 info attempt registry request try #1 at 17:26:11
+188 http request GET https://registry.npmjs.org/@angular%2fcore
+189 verbose request uri https://registry.npmjs.org/@angular%2fforms
+190 verbose request no auth needed
+191 info attempt registry request try #1 at 17:26:11
+192 http request GET https://registry.npmjs.org/@angular%2fforms
+193 verbose request uri https://registry.npmjs.org/@angular%2fhttp
+194 verbose request no auth needed
+195 info attempt registry request try #1 at 17:26:11
+196 http request GET https://registry.npmjs.org/@angular%2fhttp
+197 verbose request uri https://registry.npmjs.org/@angular%2fplatform-browser
+198 verbose request no auth needed
+199 info attempt registry request try #1 at 17:26:11
+200 http request GET https://registry.npmjs.org/@angular%2fplatform-browser
+201 verbose request uri https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+202 verbose request no auth needed
+203 info attempt registry request try #1 at 17:26:11
+204 http request GET https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+205 verbose request uri https://registry.npmjs.org/@angular%2frouter
+206 verbose request no auth needed
+207 info attempt registry request try #1 at 17:26:11
+208 http request GET https://registry.npmjs.org/@angular%2frouter
+209 verbose request uri https://registry.npmjs.org/@ckeditor%2fckeditor5-build-classic
+210 verbose request no auth needed
+211 info attempt registry request try #1 at 17:26:11
+212 http request GET https://registry.npmjs.org/@ckeditor%2fckeditor5-build-classic
+213 verbose request uri https://registry.npmjs.org/@ckeditor%2fckeditor5-editor-classic
+214 verbose request no auth needed
+215 info attempt registry request try #1 at 17:26:11
+216 http request GET https://registry.npmjs.org/@ckeditor%2fckeditor5-editor-classic
+217 verbose request uri https://registry.npmjs.org/body-parser
+218 verbose request no auth needed
+219 info attempt registry request try #1 at 17:26:11
+220 http request GET https://registry.npmjs.org/body-parser
+221 verbose request uri https://registry.npmjs.org/bootstrap
+222 verbose request no auth needed
+223 info attempt registry request try #1 at 17:26:11
+224 http request GET https://registry.npmjs.org/bootstrap
+225 verbose request uri https://registry.npmjs.org/chalk
+226 verbose request no auth needed
+227 info attempt registry request try #1 at 17:26:11
+228 http request GET https://registry.npmjs.org/chalk
+229 verbose request uri https://registry.npmjs.org/core-js
+230 verbose request no auth needed
+231 info attempt registry request try #1 at 17:26:11
+232 http request GET https://registry.npmjs.org/core-js
+233 verbose request uri https://registry.npmjs.org/express
+234 verbose request no auth needed
+235 info attempt registry request try #1 at 17:26:11
+236 http request GET https://registry.npmjs.org/express
+237 verbose request uri https://registry.npmjs.org/lodash
+238 verbose request no auth needed
+239 info attempt registry request try #1 at 17:26:11
+240 http request GET https://registry.npmjs.org/lodash
+241 verbose request uri https://registry.npmjs.org/log4js
+242 verbose request no auth needed
+243 info attempt registry request try #1 at 17:26:11
+244 http request GET https://registry.npmjs.org/log4js
+245 verbose request uri https://registry.npmjs.org/mysql
+246 verbose request no auth needed
+247 info attempt registry request try #1 at 17:26:11
+248 http request GET https://registry.npmjs.org/mysql
+249 verbose request uri https://registry.npmjs.org/ngx-cookie-service
+250 verbose request no auth needed
+251 info attempt registry request try #1 at 17:26:11
+252 http request GET https://registry.npmjs.org/ngx-cookie-service
+253 verbose request uri https://registry.npmjs.org/promise-mysql
+254 verbose request no auth needed
+255 info attempt registry request try #1 at 17:26:11
+256 http request GET https://registry.npmjs.org/promise-mysql
+257 verbose request uri https://registry.npmjs.org/rxjs
+258 verbose request no auth needed
+259 info attempt registry request try #1 at 17:26:11
+260 http request GET https://registry.npmjs.org/rxjs
+261 verbose request uri https://registry.npmjs.org/yargs
+262 verbose request no auth needed
+263 info attempt registry request try #1 at 17:26:11
+264 http request GET https://registry.npmjs.org/yargs
+265 verbose request uri https://registry.npmjs.org/zone.js
+266 verbose request no auth needed
+267 info attempt registry request try #1 at 17:26:11
+268 http request GET https://registry.npmjs.org/zone.js
+269 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+270 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+271 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+272 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+273 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+274 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+275 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+276 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+277 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+278 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+279 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+280 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+281 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+282 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+283 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+284 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+285 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+286 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+287 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+288 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+289 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+290 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+291 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+292 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+293 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+294 info attempt registry request try #2 at 17:26:21
+295 http request GET https://registry.npmjs.org/@angular-devkit%2fcore
+296 info attempt registry request try #2 at 17:26:21
+297 http request GET https://registry.npmjs.org/@angular%2fcommon
+298 info attempt registry request try #2 at 17:26:21
+299 http request GET https://registry.npmjs.org/@angular%2fcompiler
+300 info attempt registry request try #2 at 17:26:21
+301 http request GET https://registry.npmjs.org/@angular%2fcore
+302 info attempt registry request try #2 at 17:26:21
+303 http request GET https://registry.npmjs.org/@angular%2fforms
+304 info attempt registry request try #2 at 17:26:21
+305 http request GET https://registry.npmjs.org/@angular%2fhttp
+306 info attempt registry request try #2 at 17:26:21
+307 http request GET https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+308 info attempt registry request try #2 at 17:26:21
+309 http request GET https://registry.npmjs.org/@angular%2fplatform-browser
+310 info attempt registry request try #2 at 17:26:21
+311 http request GET https://registry.npmjs.org/@angular%2frouter
+312 info attempt registry request try #2 at 17:26:21
+313 http request GET https://registry.npmjs.org/@ckeditor%2fckeditor5-build-classic
+314 info attempt registry request try #2 at 17:26:21
+315 http request GET https://registry.npmjs.org/body-parser
+316 info attempt registry request try #2 at 17:26:21
+317 http request GET https://registry.npmjs.org/@ckeditor%2fckeditor5-editor-classic
+318 info attempt registry request try #2 at 17:26:21
+319 http request GET https://registry.npmjs.org/bootstrap
+320 info attempt registry request try #2 at 17:26:21
+321 http request GET https://registry.npmjs.org/chalk
+322 info attempt registry request try #2 at 17:26:21
+323 http request GET https://registry.npmjs.org/@angular%2fanimations
+324 info attempt registry request try #2 at 17:26:21
+325 http request GET https://registry.npmjs.org/core-js
+326 info attempt registry request try #2 at 17:26:21
+327 http request GET https://registry.npmjs.org/express
+328 info attempt registry request try #2 at 17:26:21
+329 http request GET https://registry.npmjs.org/log4js
+330 info attempt registry request try #2 at 17:26:21
+331 http request GET https://registry.npmjs.org/mysql
+332 info attempt registry request try #2 at 17:26:21
+333 http request GET https://registry.npmjs.org/lodash
+334 info attempt registry request try #2 at 17:26:21
+335 http request GET https://registry.npmjs.org/ngx-cookie-service
+336 info attempt registry request try #2 at 17:26:21
+337 http request GET https://registry.npmjs.org/promise-mysql
+338 info attempt registry request try #2 at 17:26:21
+339 http request GET https://registry.npmjs.org/rxjs
+340 info attempt registry request try #2 at 17:26:21
+341 http request GET https://registry.npmjs.org/yargs
+342 info attempt registry request try #2 at 17:26:21
+343 http request GET https://registry.npmjs.org/zone.js
+344 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+345 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+346 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+347 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+348 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+349 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+350 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+351 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+352 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+353 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+354 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+355 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+356 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+357 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+358 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+359 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+360 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+361 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+362 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+363 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+364 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+365 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+366 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+367 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+368 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+369 info attempt registry request try #3 at 17:27:21
+370 http request GET https://registry.npmjs.org/@angular-devkit%2fcore
+371 info attempt registry request try #3 at 17:27:21
+372 http request GET https://registry.npmjs.org/@angular%2fcommon
+373 info attempt registry request try #3 at 17:27:21
+374 http request GET https://registry.npmjs.org/@angular%2fcompiler
+375 info attempt registry request try #3 at 17:27:21
+376 http request GET https://registry.npmjs.org/@angular%2fcore
+377 info attempt registry request try #3 at 17:27:21
+378 http request GET https://registry.npmjs.org/@angular%2fhttp
+379 info attempt registry request try #3 at 17:27:21
+380 http request GET https://registry.npmjs.org/@angular%2fforms
+381 info attempt registry request try #3 at 17:27:21
+382 http request GET https://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+383 info attempt registry request try #3 at 17:27:21
+384 http request GET https://registry.npmjs.org/@angular%2fplatform-browser
+385 info attempt registry request try #3 at 17:27:21
+386 http request GET https://registry.npmjs.org/@angular%2frouter
+387 info attempt registry request try #3 at 17:27:21
+388 http request GET https://registry.npmjs.org/@ckeditor%2fckeditor5-build-classic
+389 info attempt registry request try #3 at 17:27:21
+390 http request GET https://registry.npmjs.org/body-parser
+391 info attempt registry request try #3 at 17:27:21
+392 http request GET https://registry.npmjs.org/@ckeditor%2fckeditor5-editor-classic
+393 info attempt registry request try #3 at 17:27:21
+394 http request GET https://registry.npmjs.org/bootstrap
+395 info attempt registry request try #3 at 17:27:21
+396 http request GET https://registry.npmjs.org/chalk
+397 info attempt registry request try #3 at 17:27:21
+398 http request GET https://registry.npmjs.org/@angular%2fanimations
+399 info attempt registry request try #3 at 17:27:21
+400 http request GET https://registry.npmjs.org/core-js
+401 info attempt registry request try #3 at 17:27:21
+402 http request GET https://registry.npmjs.org/express
+403 info attempt registry request try #3 at 17:27:21
+404 http request GET https://registry.npmjs.org/log4js
+405 info attempt registry request try #3 at 17:27:21
+406 http request GET https://registry.npmjs.org/mysql
+407 info attempt registry request try #3 at 17:27:21
+408 http request GET https://registry.npmjs.org/lodash
+409 info attempt registry request try #3 at 17:27:21
+410 http request GET https://registry.npmjs.org/ngx-cookie-service
+411 info attempt registry request try #3 at 17:27:21
+412 http request GET https://registry.npmjs.org/promise-mysql
+413 info attempt registry request try #3 at 17:27:21
+414 http request GET https://registry.npmjs.org/rxjs
+415 info attempt registry request try #3 at 17:27:21
+416 http request GET https://registry.npmjs.org/yargs
+417 info attempt registry request try #3 at 17:27:21
+418 http request GET https://registry.npmjs.org/zone.js
+419 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+419 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+419 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+419 silly fetchPackageMetaData  error for @angular-devkit/core@^0.2.0 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+419 silly fetchPackageMetaData   code: 'ENOTFOUND',
+419 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+419 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+419 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+419 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+419 silly fetchPackageMetaData   port: 443 }
+420 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+420 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+420 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+420 silly fetchPackageMetaData  error for @angular/common@^5.0.0 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+420 silly fetchPackageMetaData   code: 'ENOTFOUND',
+420 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+420 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+420 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+420 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+420 silly fetchPackageMetaData   port: 443 }
+421 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+421 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+421 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+421 silly fetchPackageMetaData  error for @angular/compiler@^5.0.0 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+421 silly fetchPackageMetaData   code: 'ENOTFOUND',
+421 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+421 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+421 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+421 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+421 silly fetchPackageMetaData   port: 443 }
+422 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+422 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+422 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+422 silly fetchPackageMetaData  error for @angular/core@^5.0.0 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+422 silly fetchPackageMetaData   code: 'ENOTFOUND',
+422 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+422 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+422 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+422 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+422 silly fetchPackageMetaData   port: 443 }
+423 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+423 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+423 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+423 silly fetchPackageMetaData  error for @angular/http@^5.0.0 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+423 silly fetchPackageMetaData   code: 'ENOTFOUND',
+423 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+423 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+423 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+423 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+423 silly fetchPackageMetaData   port: 443 }
+424 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+424 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+424 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+424 silly fetchPackageMetaData  error for @angular/forms@^5.0.0 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+424 silly fetchPackageMetaData   code: 'ENOTFOUND',
+424 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+424 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+424 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+424 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+424 silly fetchPackageMetaData   port: 443 }
+425 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+425 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+425 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+425 silly fetchPackageMetaData  error for @angular/platform-browser-dynamic@^5.0.0 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+425 silly fetchPackageMetaData   code: 'ENOTFOUND',
+425 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+425 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+425 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+425 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+425 silly fetchPackageMetaData   port: 443 }
+426 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+426 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+426 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+426 silly fetchPackageMetaData  error for @angular/platform-browser@^5.0.0 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+426 silly fetchPackageMetaData   code: 'ENOTFOUND',
+426 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+426 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+426 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+426 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+426 silly fetchPackageMetaData   port: 443 }
+427 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+427 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+427 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+427 silly fetchPackageMetaData  error for @angular/router@^5.0.0 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+427 silly fetchPackageMetaData   code: 'ENOTFOUND',
+427 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+427 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+427 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+427 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+427 silly fetchPackageMetaData   port: 443 }
+428 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+428 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+428 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+428 silly fetchPackageMetaData  error for @ckeditor/ckeditor5-build-classic@^1.0.0-alpha.2 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+428 silly fetchPackageMetaData   code: 'ENOTFOUND',
+428 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+428 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+428 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+428 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+428 silly fetchPackageMetaData   port: 443 }
+429 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+429 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+429 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+429 silly fetchPackageMetaData  error for body-parser@1.18.2 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+429 silly fetchPackageMetaData   code: 'ENOTFOUND',
+429 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+429 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+429 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+429 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+429 silly fetchPackageMetaData   port: 443 }
+430 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+430 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+430 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+430 silly fetchPackageMetaData  error for @ckeditor/ckeditor5-editor-classic@^1.0.0-alpha.2 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+430 silly fetchPackageMetaData   code: 'ENOTFOUND',
+430 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+430 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+430 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+430 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+430 silly fetchPackageMetaData   port: 443 }
+431 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+431 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+431 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+431 silly fetchPackageMetaData  error for bootstrap@^3.3.7 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+431 silly fetchPackageMetaData   code: 'ENOTFOUND',
+431 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+431 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+431 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+431 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+431 silly fetchPackageMetaData   port: 443 }
+432 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+432 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+432 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+432 silly fetchPackageMetaData  error for chalk@2.3.0 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+432 silly fetchPackageMetaData   code: 'ENOTFOUND',
+432 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+432 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+432 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+432 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+432 silly fetchPackageMetaData   port: 443 }
+433 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+433 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+433 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+433 silly fetchPackageMetaData  error for @angular/animations@^5.0.0 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+433 silly fetchPackageMetaData   code: 'ENOTFOUND',
+433 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+433 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+433 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+433 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+433 silly fetchPackageMetaData   port: 443 }
+434 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+434 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+434 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+434 silly fetchPackageMetaData  error for core-js@^2.4.1 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+434 silly fetchPackageMetaData   code: 'ENOTFOUND',
+434 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+434 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+434 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+434 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+434 silly fetchPackageMetaData   port: 443 }
+435 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+435 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+435 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+435 silly fetchPackageMetaData  error for express@4.16.2 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+435 silly fetchPackageMetaData   code: 'ENOTFOUND',
+435 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+435 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+435 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+435 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+435 silly fetchPackageMetaData   port: 443 }
+436 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+436 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+436 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+436 silly fetchPackageMetaData  error for log4js@2.3.12 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+436 silly fetchPackageMetaData   code: 'ENOTFOUND',
+436 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+436 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+436 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+436 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+436 silly fetchPackageMetaData   port: 443 }
+437 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+437 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+437 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+437 silly fetchPackageMetaData  error for mysql@2.15.0 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+437 silly fetchPackageMetaData   code: 'ENOTFOUND',
+437 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+437 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+437 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+437 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+437 silly fetchPackageMetaData   port: 443 }
+438 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+438 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+438 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+438 silly fetchPackageMetaData  error for lodash@4.17.4 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+438 silly fetchPackageMetaData   code: 'ENOTFOUND',
+438 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+438 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+438 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+438 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+438 silly fetchPackageMetaData   port: 443 }
+439 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+439 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+439 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+439 silly fetchPackageMetaData  error for ngx-cookie-service@^1.0.10 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+439 silly fetchPackageMetaData   code: 'ENOTFOUND',
+439 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+439 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+439 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+439 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+439 silly fetchPackageMetaData   port: 443 }
+440 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+440 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+440 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+440 silly fetchPackageMetaData  error for promise-mysql@3.1.3 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+440 silly fetchPackageMetaData   code: 'ENOTFOUND',
+440 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+440 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+440 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+440 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+440 silly fetchPackageMetaData   port: 443 }
+441 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+441 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+441 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+441 silly fetchPackageMetaData  error for rxjs@^5.5.2 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+441 silly fetchPackageMetaData   code: 'ENOTFOUND',
+441 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+441 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+441 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+441 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+441 silly fetchPackageMetaData   port: 443 }
+442 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+442 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+442 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+442 silly fetchPackageMetaData  error for yargs@10.0.3 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+442 silly fetchPackageMetaData   code: 'ENOTFOUND',
+442 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+442 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+442 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+442 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+442 silly fetchPackageMetaData   port: 443 }
+443 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+443 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
+443 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+443 silly fetchPackageMetaData  error for zone.js@^0.8.14 { [Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443]
+443 silly fetchPackageMetaData   code: 'ENOTFOUND',
+443 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+443 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+443 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+443 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+443 silly fetchPackageMetaData   port: 443 }
+444 silly rollbackFailedOptional Starting
+445 silly rollbackFailedOptional Finishing
+446 silly runTopLevelLifecycles Starting
+447 silly runTopLevelLifecycles Finishing
+448 silly install printInstalled
+449 verbose stack Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+449 verbose stack     at errnoException (dns.js:26:10)
+449 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+450 verbose cwd C:\Users\iane7520\Downloads\A11YTest-Develop
+451 error Windows_NT 6.1.7601
+452 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i"
+453 error node v5.4.0
+454 error npm  v3.3.12
+455 error code ENOTFOUND
+456 error errno ENOTFOUND
+457 error syscall getaddrinfo
+458 error network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+458 error network This is most likely not a problem with npm itself
+458 error network and is related to network connectivity.
+458 error network In most cases you are behind a proxy or have bad network settings.
+458 error network
+458 error network If you are behind a proxy, please make sure that the
+458 error network 'proxy' config is set properly.  See: 'npm help config'
+459 verbose exit [ 1, true ]
