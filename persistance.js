@@ -1,13 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const index_1 = require("../../db/index");
-class EcransPersistance {
+class ResultatsPersistance {
     constructor() {
         this.queries = {
-            getById: "SELECT * FROM ecrans WHERE ecran_id = (?)",
-            getAll: "SELECT * FROM ecrans",
-            create: "INSERT INTO ecrans (ecran_nom, document_id) VALUES (?, ?)",
-            delete: "DELETE FROM ecrans WHERE ecran_id = (?)"
+            getById: "SELECT * FROM view_resultats WHERE id = (?)",
+            getByEcran: "SELECT * FROM view_resultats WHERE ecran_id= (?)",
+            getAll: "SELECT * FROM view_resultats",
+            create: "INSERT INTO resultats(test_id,ecran_id,status_id,testeur_id,anomalie_id,environnement_nom) VALUES (?,?,?,?,?,?)",
+            delete: "DELETE FROM resultats WHERE resultat_id = (?)"
         };
     }
     getById(id) {
@@ -38,17 +39,31 @@ class EcransPersistance {
             });
         });
     }
-    create(ecran) {
+    getByEcran(id) {
         return new Promise((resolve, reject) => {
             index_1.MysqlConnection.pool.getConnection((err, con) => {
                 if (err)
                     return reject(err);
-                con.query(this.queries.create, [ecran.ecran_nom, ecran.document_id], (err, result) => {
+                con.query(this.queries.getByEcran, id, (err, rows) => {
                     con.release();
                     if (err)
                         return reject(err);
-                    ecran.ecran_id = result.insertId;
-                    return resolve(ecran);
+                    return resolve(rows);
+                });
+            });
+        });
+    }
+    create(resultat) {
+        return new Promise((resolve, reject) => {
+            index_1.MysqlConnection.pool.getConnection((err, con) => {
+                if (err)
+                    return reject(err);
+                con.query(this.queries.create, [resultat.test_id, resultat.ecran_id, resultat.status_id, resultat.testeur_id, resultat.anomalie_id, resultat.environnement_nom], (err, result) => {
+                    con.release();
+                    if (err)
+                        return reject(err);
+                    resultat.resultat_id = result.insertId;
+                    return resolve(resultat);
                 });
             });
         });
@@ -68,5 +83,5 @@ class EcransPersistance {
         });
     }
 }
-exports.EcransPersistance = EcransPersistance;
+exports.ResultatsPersistance = ResultatsPersistance;
 //# sourceMappingURL=persistance.js.map

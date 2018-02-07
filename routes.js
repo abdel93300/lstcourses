@@ -2,54 +2,70 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const persistance_1 = require("./persistance");
 const errors_1 = require("../../utils/errors");
-var EcranRoutes;
-(function (EcranRoutes) {
+var ResultatRoutes;
+(function (ResultatRoutes) {
     function getById(req, res) {
         const id = req.params["id"];
         if (!id)
             return new errors_1.AuditException(403, errors_1.AuditException.MISSING_PARAM).toResponse(res);
-        new persistance_1.EcransPersistance()
+        new persistance_1.ResultatsPersistance()
             .getById(id)
-            .then((ecran) => {
-            if (!ecran)
+            .then((resultat) => {
+            if (!resultat)
                 return new errors_1.AuditException(404, errors_1.AuditException.NOT_FOUND).toResponse(res);
-            return res.json(ecran);
+            return res.json(resultat);
         })
             .catch(err => {
             return new errors_1.AuditException(500, err).toResponse(res);
         });
     }
-    EcranRoutes.getById = getById;
+    ResultatRoutes.getById = getById;
     function get(req, res) {
-        new persistance_1.EcransPersistance()
+        new persistance_1.ResultatsPersistance()
             .getAll()
-            .then((testeurs) => {
-            if (!testeurs)
+            .then((resultats) => {
+            if (!resultats)
                 return new errors_1.AuditException(404, errors_1.AuditException.NOT_FOUND).toResponse(res);
-            return res.json(testeurs);
+            return res.json(resultats);
         })
             .catch(err => {
             return new errors_1.AuditException(500, err).toResponse(res);
         });
     }
-    EcranRoutes.get = get;
+    ResultatRoutes.get = get;
+    function getByEcran(req, res) {
+        const id = req.params["id"];
+        if (!id)
+            return new errors_1.AuditException(403, errors_1.AuditException.MISSING_PARAM).toResponse(res);
+        new persistance_1.ResultatsPersistance()
+            .getByEcran(id)
+            .then((resultats) => {
+            if (!resultats)
+                return new errors_1.AuditException(404, errors_1.AuditException.NOT_FOUND).toResponse(res);
+            return res.json(resultats);
+        })
+            .catch(err => {
+            return new errors_1.AuditException(500, err).toResponse(res);
+        });
+    }
+    ResultatRoutes.getByEcran = getByEcran;
     function create(req, res) {
-        let ecran = req.body;
-        new persistance_1.EcransPersistance()
-            .create(ecran)
-            .then((ecran) => {
-            return res.json(ecran);
+        let resultat = req.body;
+        new persistance_1.ResultatsPersistance()
+            .create(resultat)
+            .then((resultat) => {
+            return res.json(resultat);
         })
             .catch(err => {
             return new errors_1.AuditException(500, err).toResponse(res);
         });
     }
-    EcranRoutes.create = create;
+    ResultatRoutes.create = create;
     function deleteFromId(req, res) {
         const id = req.params["id"];
         if (!id)
             return new errors_1.AuditException(403, errors_1.AuditException.MISSING_PARAM).toResponse(res);
-        new persistance_1.EcransPersistance()
+        new persistance_1.ResultatsPersistance()
             .deleteFromId(id)
             .then((deletedId) => {
             return res.json({
@@ -60,6 +76,6 @@ var EcranRoutes;
             return new errors_1.AuditException(500, err).toResponse(res);
         });
     }
-    EcranRoutes.deleteFromId = deleteFromId;
-})(EcranRoutes = exports.EcranRoutes || (exports.EcranRoutes = {}));
+    ResultatRoutes.deleteFromId = deleteFromId;
+})(ResultatRoutes = exports.ResultatRoutes || (exports.ResultatRoutes = {}));
 //# sourceMappingURL=routes.js.map
